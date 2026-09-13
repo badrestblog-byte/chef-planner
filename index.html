@@ -300,8 +300,8 @@ const nav=document.getElementById('nav'),mobile=document.getElementById('mobileN
 </script>
 
 <script id="supabase-functional-js">
-const SUPABASE_URL='https://yxhsjfznycchmhqfwlnb.supabase.co';
-const SUPABASE_KEY='sb_publishable_xOGcsuJsAE13_rnB4kQlzA_JSIip6U7';
+const SUPABASE_URL='https://jdsldyzyoslodgflawsq.supabase.co';
+const SUPABASE_KEY='sb_publishable_uT5SbU4UB0nfiZM44s2zxQ_qytjRRg1';
 const db=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
 window.currentUser=null;let currentOrg=null,saveTimer=null,isPlatformAdmin=false;
 function showAuthMode(mode){const lf=document.getElementById('loginForm'),sf=document.getElementById('signupForm');if(lf)lf.style.display=mode==='login'?'grid':'none';if(sf)sf.style.display=mode==='signup'?'grid':'none';document.getElementById('loginTab')?.classList.toggle('active',mode==='login');document.getElementById('signupTab')?.classList.toggle('active',mode==='signup');const m=document.getElementById('authMsg');if(m)m.textContent='';}
